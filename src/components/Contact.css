@@ -1,0 +1,339 @@
+/* ------------------------------------------------------------
+   © 2025 Ahmad Raza  (@ahmadrzaa on GitHub)
+   All rights reserved. Do not distribute without permission.
+   ------------------------------------------------------------ */
+
+
+
+
+
+.contact-wrap {
+    background: linear-gradient(to bottom, #0e0e0e, #1a1a1a);
+    color: white;
+    padding: 80px 40px;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .contact-grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: auto;
+    gap: 60px;
+  }
+  
+  .contact-left {
+    flex: 1;
+    min-width: 400px;
+  }
+  
+  .contact-right {
+    flex: 1.2;
+    min-width: 440px;
+    background: #2e2e2e;
+    padding: 40px 30px;
+    border-radius: 10px;
+  }
+  
+  .contact-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-title span {
+    font-weight: 700;
+  }
+  
+  .contact-desc {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .contact-map {
+    width: 100%;
+    height: 240px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-address {
+    font-size: 15px;
+    color: #bbb;
+    line-height: 1.6;
+  }
+  
+  .contact-address p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 6px 0;
+  }
+  
+  .contact-link {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Icon Styling */
+  .icon {
+    font-size: 16px;
+  }
+  
+  .icon.green {
+    color: #25d366;
+  }
+  
+  /* Form Section */
+  .form-title {
+    font-size: 22px;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .form-row.single {
+    flex-direction: column;
+  }
+  
+  input,
+  select,
+  textarea {
+    flex: 1;
+    background: #444;
+    border: 1px solid #555;
+    border-radius: 6px;
+    padding: 12px 14px;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  button {
+    background: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background: white;
+    color: black;
+  }
+  
+  .form-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-note {
+    font-size: 13px;
+    color: #999;
+    line-height: 1.5;
+  }
+  
+  .form-note a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
+  .form-note a:hover {
+    text-decoration: underline;
+  }
+  
+  /*  Thank-you Box  */
+  .form-confirmation-box {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 12px;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  .form-confirmation-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffcc00;
+  }
+  
+  .thankyou-table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  
+  .thankyou-table td {
+    padding: 6px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #eee;
+  }
+  
+  .urgent-contact {
+    margin-top: 20px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  
+  .urgent-contact a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
+  .urgent-contact a:hover {
+    text-decoration: underline;
+  }
+  
+  .close-popup {
+    margin-top: 20px;
+    background: #ffcc00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .close-popup:hover {
+    background: white;
+  }
+  
+  /*  Top Popup (after submit) */
+  .top-popup-box {
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    background: white;
+    color: #111;
+    border: 1px solid #ccc;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 500px;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .top-popup-inner h4 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .popup-icon {
+    color: #25d366;
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .top-popup-inner p {
+    font-size: 14px;
+    margin: 6px 0;
+    color: #222;
+  }
+  
+  .popup-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 16px;
+    font-size: 14px;
+  }
+  
+  .popup-links a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .popup-whatsapp {
+    color: #25d366;
+  }
+  
+  .popup-email {
+    color: #f9a825;
+  }
+  
+  .popup-urgent {
+    margin-top: 20px;
+    font-size: 13px;
+    background: #f5f5f5;
+    padding: 12px;
+    border-radius: 8px;
+    color: #000;
+    line-height: 1.6;
+  }
+  
+  .popup-urgent a {
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .popup-urgent a:hover {
+    text-decoration: underline;
+  }
+  
+  .popup-close-btn {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  @keyframes fadeSlideDown {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -20px);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, 0);
+    }
+  }
+  

@@ -1,0 +1,98 @@
+/* ------------------------------------------------------------
+   © 2025 Ahmad Raza  (@ahmadrzaa on GitHub)
+   All rights reserved. Do not distribute without permission.
+   ------------------------------------------------------------ */
+
+
+.testimonials-section {
+    background: linear-gradient(to bottom, #000000, #1a1a1a);
+    padding: 60px 20px 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Georgia', 'Cursive', serif;
+    margin-top: -20px;
+  }
+  
+  .testimonials-slider {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .testimonial-quote {
+    font-size: 26px;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #fefefe;
+  }
+  
+  .testimonial-footer {
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+    color: #ccc;
+    font-family: 'Georgia', serif;
+  }
+  
+  .testimonial-name {
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  
+  .testimonial-stars {
+    display: flex;
+    align-items: center;
+  }
+  
+  .testimonial-linkedin {
+    color: #0077b5;
+    font-size: 18px;
+    transition: 0.2s;
+  }
+  
+  .testimonial-linkedin:hover {
+    color: #00a0dc;
+  }
+  
+  /* Tablet screens */
+  @media (max-width: 1024px) {
+    .testimonial-quote {
+      font-size: 22px;
+    }
+  
+    .testimonial-footer {
+      font-size: 14px;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+  
+  /*  Mobile screens */
+  @media (max-width: 768px) {
+    .testimonials-section {
+      padding: 50px 15px 30px;
+    }
+  
+    .testimonial-quote {
+      font-size: 20px;
+      margin-bottom: 16px;
+      line-height: 1.6;
+    }
+  
+    .testimonial-footer {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+    }
+  
+    .testimonial-linkedin {
+      font-size: 16px;
+    }
+  }
+  

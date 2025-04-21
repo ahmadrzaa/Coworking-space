@@ -1,0 +1,186 @@
+/* ------------------------------------------------------------
+   © 2025 Ahmad Raza  (@ahmadrzaa on GitHub)
+   All rights reserved. Do not distribute without permission.
+   ------------------------------------------------------------ */
+
+
+
+
+
+.features {
+    width: 100%;
+    background: linear-gradient(to bottom, #0e0e0e, #1a1a1a); /* Layer 1 */
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .features__wrapper {
+    background: rgba(255, 255, 255, 0.04); /* Layer 2 */
+    border-radius: 24px;
+    padding: 60px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    max-width: 1400px;
+    width: 90%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  }
+  
+  .features__title {
+    font-size: 38px;
+    color: white;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  
+  .features__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+  
+  .feature__box {
+    display: flex;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 20px;
+    align-items: flex-start;
+    gap: 20px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  
+  .feature__box:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-5px);
+  }
+  
+  .feature__icon-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  .feature__content {
+    text-align: left;
+    color: white;
+  }
+  
+  .feature__title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 5px;
+  }
+  
+  .feature__desc {
+    font-size: 14px;
+    color: #ccc;
+    margin: 0 0 6px;
+  }
+  
+  .feature__price {
+    font-size: 14px;
+    color: #ffd700;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .feature__btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: 0.3s ease;
+  }
+  
+  .feature__btn:hover {
+    background: #fff;
+    color: #111;
+  }
+  
+
+  /*  Tablet Screens */
+@media (max-width: 1024px) {
+    .features__title {
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    .features__grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+  
+    .features__wrapper {
+      padding: 40px;
+    }
+  
+    .feature__icon-img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .feature__title {
+      font-size: 16px;
+    }
+  
+    .feature__desc,
+    .feature__price {
+      font-size: 13px;
+    }
+  
+    .feature__btn {
+      font-size: 13px;
+      padding: 8px 16px;
+    }
+  }
+  
+  /*  Mobile Screens */
+  @media (max-width: 767px) {
+    .features__title {
+      font-size: 26px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  
+    .features__grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  
+    .features__wrapper {
+      padding: 30px 20px;
+    }
+  
+    .feature__box {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+  
+    .feature__icon-img {
+      width: 48px;
+      height: 48px;
+    }
+  
+    .feature__title {
+      font-size: 15px;
+    }
+  
+    .feature__desc,
+    .feature__price {
+      font-size: 13px;
+    }
+  
+    .feature__btn {
+      font-size: 12px;
+      padding: 8px 14px;
+    }
+  }
+  

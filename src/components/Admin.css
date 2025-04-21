@@ -1,0 +1,88 @@
+/* ------------------------------------------------------------
+   © 2025 Ahmad Raza  (@ahmadrzaa on GitHub)
+   All rights reserved. Do not distribute without permission.
+   ------------------------------------------------------------ */
+
+
+.admin-page {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #0e0e0e, #1a1a1a);
+    color: white;
+    padding: 60px 30px;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .admin-page h2 {
+    font-size: 28px;
+    color: #ffcc00;
+    margin-bottom: 30px;
+  }
+  
+  .admin-page table {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    border-collapse: collapse;
+    background: #2e2e2e;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .admin-page th, .admin-page td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #444;
+    text-align: left;
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  .admin-page th {
+    background: #3a3a3a;
+    color: #ffcc00;
+  }
+  
+  .admin-page button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    font-size: 13px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .admin-page button:hover {
+    background: #ff0000;
+  }
+  
+
+  /* tablets and mobile */
+@media (max-width: 1024px) {
+    .admin-page {
+      padding: 40px 20px;
+    }
+  
+    .admin-page h2 {
+      font-size: 22px;
+      text-align: center;
+    }
+  
+    .admin-page table {
+      width: 100%;
+      display: block;
+      overflow-x: auto;
+      font-size: 13px;
+    }
+  
+    .admin-page th, .admin-page td {
+      padding: 10px 12px;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+  
+    .admin-page button {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }
+  

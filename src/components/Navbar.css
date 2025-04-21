@@ -1,0 +1,239 @@
+/* ------------------------------------------------------------
+   © 2025 Ahmad Raza  (@ahmadrzaa on GitHub)
+   All rights reserved. Do not distribute without permission.
+   ------------------------------------------------------------ */
+
+
+
+
+.navbar {
+  background: #1a1a1a; /* Solid black navbar */
+  padding: 20px 80px;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  z-index: 100;
+}
+
+.navbar__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__logo {
+  height: 50px;
+  object-fit: contain;
+}
+
+.navbar__nav {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.navbar__nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 6px 0;
+  position: relative;
+  transition: color 0.3s ease;
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar__nav a:hover {
+  color: #e76634;
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar__nav a.active {
+  color: #e76634;
+}
+
+.dropdown {
+  position: relative;
+  font-family: Montserrat, sans-serif;
+}
+
+.dropdown__content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #262626;
+  padding: 10px 0;
+  border-radius: 5px;
+  z-index: 10;
+  min-width: 160px;
+  font-family: Montserrat, sans-serif;
+}
+
+.dropdown__content a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  white-space: nowrap;
+  font-family: Montserrat, sans-serif;
+}
+
+.dropdown__content a:hover {
+  background-color: #333;
+  color: #e76634;
+}
+
+.dropdown:hover .dropdown__content {
+  display: block;
+}
+
+.navbar__icon {
+  color: white;
+  font-size: 22px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.navbar__icon:hover {
+  transform: scale(1.1);
+  color: #e76634;
+}
+
+/* ✅ ADDITIONS for user profile image + dropdown */
+.navbar__user {
+  position: relative;
+  margin-left: 20px;
+}
+
+.navbar__user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid #e76634;
+  transition: transform 0.3s ease;
+}
+
+.navbar__user-img:hover {
+  transform: scale(1.1);
+}
+
+.navbar__dropdown {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+  padding: 14px 18px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  min-width: 200px;
+  z-index: 99;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar__dropdown p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.navbar__dropdown button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  width: 100%;
+  background: #e76634;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.navbar__dropdown button:hover {
+  background: white;
+  color: black;
+}
+
+
+
+/* Tablets (width ≤ 1024px) */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 20px 40px;
+  }
+
+  .navbar__nav {
+    gap: 25px;
+  }
+}
+
+/* Mobile Devices (width ≤ 767px) */
+@media (max-width: 767px) {
+  .navbar {
+    padding: 16px 24px;
+    flex-direction: column;
+  }
+
+  .navbar__container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .navbar__nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    width: 100%;
+  }
+
+  .navbar__nav a {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+
+  .dropdown__content {
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: #1a1a1a;
+    width: 100%;
+  }
+
+  .dropdown__content a {
+    padding: 10px 16px;
+    font-size: 15px;
+  }
+
+  .navbar__icon {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .navbar__user {
+    margin-left: 0;
+  }
+
+  .navbar__dropdown {
+    top: 45px;
+    right: 0;
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+
+  .navbar__dropdown button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,142 @@
+
+/* ------------------------------------------------------------
+   © 2025 Ahmad Raza  (@ahmadrzaa on GitHub)
+   All rights reserved. Do not distribute without permission.
+   ------------------------------------------------------------ */
+
+
+
+
+
+.signup-page {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #0e0e0e, #1a1a1a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 40px;
+    font-family: "Segoe UI", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .signup-form {
+    background: #2e2e2e;
+    padding: 40px 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+  }
+  
+  .signup-form h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #ffcc00;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 18px;
+    background: #444;
+    border: 1px solid #555;
+    color: white;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .signup-form button {
+    width: 100%;
+    background: #ffcc00;
+    color: black;
+    border: none;
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .signup-form button:hover {
+    background: white;
+    color: black;
+  }
+  
+  .signup-form p {
+    font-size: 13px;
+    margin-top: 15px;
+    color: #ccc;
+  }
+  
+  .signup-form a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .signup-form a:hover {
+    text-decoration: underline;
+  }
+  
+  .error {
+    color: #ff6f6f;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  
+  /*  Responsive: Tablets */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .signup-page {
+      padding: 40px;
+    }
+  
+    .signup-form {
+      padding: 36px 24px;
+    }
+  }
+  
+  /*  Responsive: Mobile */
+  @media (max-width: 767px) {
+    .signup-page {
+      padding: 20px;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .signup-form {
+      padding: 28px 20px;
+      max-width: 100%;
+      width: 100%;
+      border-radius: 10px;
+    }
+  
+    .signup-form h2 {
+      font-size: 22px;
+    }
+  
+    .signup-form input {
+      font-size: 13px;
+      padding: 10px 12px;
+    }
+  
+    .signup-form button {
+      font-size: 15px;
+      padding: 10px;
+    }
+  
+    .signup-form p {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+  
+  /*  Responsive: Desktop Large Screens */
+  @media (min-width: 1280px) {
+    .signup-form {
+      margin: 0 auto;
+    }
+  }
+  

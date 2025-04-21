@@ -1,0 +1,71 @@
+/* ------------------------------------------------------------
+   © 2025 Ahmad Raza  (@ahmadrzaa on GitHub)
+   All rights reserved. Do not distribute without permission.
+   ------------------------------------------------------------ */
+
+
+
+
+.slider-section {
+    background: #111;
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .slider-heading {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .slider-container {
+    max-width: 1300px;
+    margin: auto;
+  }
+  
+  .slider-image-box {
+    padding: 10px;
+  }
+  
+  .slider-image-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  /* Tablet Screens */
+  @media (max-width: 1024px) {
+    .slider-section {
+      padding: 50px 30px;
+    }
+  
+    .slider-heading {
+      font-size: 28px;
+    }
+  
+    .slider-image-box img {
+      height: 160px;
+    }
+  }
+  
+  /*  Mobile Screens */
+  @media (max-width: 767px) {
+    .slider-section {
+      padding: 40px 20px;
+    }
+  
+    .slider-heading {
+      font-size: 24px;
+    }
+  
+    .slider-image-box {
+      padding: 6px;
+    }
+  
+    .slider-image-box img {
+      height: 140px;
+      border-radius: 10px;
+    }
+  }
+  

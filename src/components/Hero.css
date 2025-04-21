@@ -1,0 +1,210 @@
+/* ------------------------------------------------------------
+   © 2025 Ahmad Raza  (@ahmadrzaa on GitHub)
+   All rights reserved. Do not distribute without permission.
+   ------------------------------------------------------------ */
+
+
+
+
+.hero {
+    width: 100%;
+    padding-top: 120px;           
+    padding-bottom: 60px;         
+    background: 
+        linear-gradient(to bottom, rgba(20, 16, 21, 0.8), rgba(228, 174, 177, 0.8)),
+        url("/platfrom_meetingbg.png");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__overlay {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 40px;
+    height: 100%;
+    position: relative;
+}
+
+.hero__glassbox {
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 30px 40px;
+    width: 850px;                
+    height: auto;                
+    color: white;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.05);
+    position: relative;
+    z-index: 2;
+    text-align: center;          
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: -170px;
+}
+
+.animated-border {
+    animation: glow-border 4s ease-in-out infinite;
+    box-shadow: 
+        0 0 20px rgba(255, 255, 255, 0.2),
+        0 0 40px rgba(255, 0, 0, 0.3),
+        0 0 60px rgba(255, 255, 255, 0.1);
+}
+
+@keyframes glow-border {
+    0% {
+        box-shadow: 
+            0 0 10px rgba(255, 255, 255, 0.2),
+            0 0 30px rgba(255, 0, 0, 0.4),
+            0 0 50px rgba(255, 255, 255, 0.1);
+    }
+    50% {
+        box-shadow: 
+            0 0 30px rgba(255, 255, 255, 0.4),
+            0 0 60px rgba(255, 0, 0, 0.7),
+            0 0 90px rgba(255, 255, 255, 0.3);
+    }
+    100% {
+        box-shadow: 
+            0 0 10px rgba(255, 255, 255, 0.2),
+            0 0 30px rgba(255, 0, 0, 0.4),
+            0 0 50px rgba(255, 255, 255, 0.1);
+    }
+}
+
+.hero__content {
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.hero__subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.hero__youtube {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 14px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.3s ease;
+}
+
+.hero__youtube:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+.hero__youtube-icon {
+    font-size: 28px;
+    margin-right: 12px;
+    color: red;
+}
+
+
+
+/* Mobile Devices  */
+@media (max-width: 767px) {
+    .hero {
+      padding-top: 100px;
+      padding-bottom: 40px;
+      background-position: center top;
+    }
+  
+    .hero__glassbox {
+      width: 90%;
+      padding: 20px 24px;
+      margin-top: 180px;
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 16px;
+    }
+  
+    .hero__title {
+      font-size: 32px;
+    }
+  
+    .hero__subtitle {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+  
+    .hero__youtube {
+      font-size: 16px;
+      padding: 12px 20px;
+    }
+  
+    .hero__youtube-icon {
+      font-size: 22px;
+    }
+  }
+  
+  /* Tablets - Medium Screens */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .hero {
+      padding-top: 110px;
+      padding-bottom: 50px;
+    }
+  
+    .hero__glassbox {
+      width: 90%;
+      padding: 28px 36px;
+      margin-top: 200px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  
+    .hero__title {
+      font-size: 40px;
+    }
+  
+    .hero__subtitle {
+      font-size: 18px;
+    }
+  
+    .hero__youtube {
+      font-size: 17px;
+      padding: 12px 22px;
+    }
+  
+    .hero__youtube-icon {
+      font-size: 24px;
+    }
+  }
+  
+  /* Large Screens */
+  @media (min-width: 1441px) {
+    .hero__glassbox {
+      width: 900px;
+    }
+  
+    .hero__title {
+      font-size: 54px;
+    }
+  
+    .hero__subtitle {
+      font-size: 22px;
+    }
+  }
+  
