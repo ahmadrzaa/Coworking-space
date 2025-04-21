@@ -31,7 +31,7 @@ function SectionTwo() {
           </div>
 
           <div className="section-two__right">
-            <img src="/platfrom3.webp" alt="Platform Bahrain Innovation" />
+            <img src="platfrom3.webp" alt="Platform Bahrain Innovation" />
           </div>
         </div>
 

@@ -13,11 +13,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  "/platfrom5.webp",
-  "/platfrom1.webp",
-  "/platfrom3.webp",
-  "/platfrom2.webp",
-  "/platfrom4.webp",
+  "platfrom5.webp",
+  "platfrom1.webp",
+  "platfrom3.webp",
+  "platfrom2.webp",
+  "platfrom4.webp",
 ];
 
 function ImageSlider() {

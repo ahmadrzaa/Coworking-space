@@ -3,9 +3,6 @@
 // All rights reserved. Do not distribute without permission.
 // ------------------------------------------------------------
 
-
-
-
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
@@ -15,7 +12,7 @@ import "./styles/styles.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Coworking-space">
       <App />
     </BrowserRouter>
   </React.StrictMode>

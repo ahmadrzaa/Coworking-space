@@ -28,11 +28,12 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar__container">
-        <img
-          src="/public/Platform Business logo PDF1-01-01.png"
-          alt="Platform Bahrain"
-          className="navbar__logo"
-        />
+      <img
+        src="Platform Business logo PDF1-01-01.png"
+        alt="Platform Bahrain"
+        className="navbar__logo"
+      />
+
 
         <nav className="navbar__nav">
           <a href="#" className="active">Home</a>

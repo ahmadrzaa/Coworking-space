@@ -7,6 +7,18 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: "/Coworking-space/",
-  plugins: [react()]
+  plugins: [react()],
+  base: '/Coworking-space/',
+  build: {
+    outDir: 'dist',
+  },
+  resolve: {
+    alias: {
+      // your aliases if any
+    }
+  },
+  // 👇 Add this part to fix 404 on refresh
+  server: {
+    historyApiFallback: true,
+  }
 })
