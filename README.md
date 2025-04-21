@@ -1,12 +1,14 @@
 # Platform Bahrain – Smart Coworking Space Portal
 
+## 🌐 Live Demo for DESKTOP SIZE NOT MOBILE 
+https://ahmadrzaa.github.io/Coworking-space/login 
+
 **Fullstack project** built using **Vite + React** frontend and **Node.js + Express** backend for coworking space management, smart workspace listing, booking inquiries, and user login/signup functionality. Fully responsive and hosted via GitHub Pages (frontend) + Node.js server (backend).
 
 ![homepage ss1](https://github.com/user-attachments/assets/080b945a-0a20-49a2-848f-f906822c6c4d)
 
 ---
 
-## 🌐 Live Demo
 
 Frontend: https://yourusername.github.io/platform-bahrain  
 Backend: Runs locally via Node server at http://localhost:5000/api/contact
