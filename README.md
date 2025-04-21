@@ -4,8 +4,10 @@
 https://ahmadrzaa.github.io/Coworking-space/login 
 
 **Fullstack project** built using **Vite + React** frontend and **Node.js + Express** backend for coworking space management, smart workspace listing, booking inquiries, and user login/signup functionality. Fully responsive and hosted via GitHub Pages (frontend) + Node.js server (backend).
+![plaftom](https://github.com/user-attachments/assets/dab5b8d0-3fe9-4ada-9a8d-c4154135915f)
 
-![homepage ss1](https://github.com/user-attachments/assets/080b945a-0a20-49a2-848f-f906822c6c4d)
+![plaftom 1](https://github.com/user-attachments/assets/0482efa0-5263-4e1e-93c9-d1e3c00ca5d7)
+
 
 ---
 
