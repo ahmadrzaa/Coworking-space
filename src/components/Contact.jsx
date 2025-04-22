@@ -58,12 +58,12 @@ function Contact() {
             </p>
             <div className="popup-links">
               <a
-                href="https://wa.me/97334123546"
+                href="https://wa.me/97317104711"
                 className="popup-whatsapp"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fab fa-whatsapp"></i> +973 34123546
+                <i className="fab fa-whatsapp"></i> +973 17104711
               </a>
               <a
                 href="mailto:ahmadrza.1110@gmail.com"
@@ -80,12 +80,12 @@ function Contact() {
               </p>
               <p>
                 <strong>WhatsApp:</strong>{" "}
-                <a href="https://wa.me/97334123546" target="_blank" rel="noreferrer">
-                  +973 34123546
+                <a href="https://wa.me/97317104711" target="_blank" rel="noreferrer">
+                  +973 17104711
                 </a>
                 <br />
                 <strong>Email:</strong>{" "}
-                <a href="mailto:ahmadrza.1110@gmail.com">ahmadrza.1110@gmail.com</a>
+                <a href="mailto:digital@intermid.net">digital@intermid.net</a>
               </p>
             </div>
           </div>
@@ -117,19 +117,19 @@ function Contact() {
               <p>Kingdom of Bahrain</p>
               <p>
                 <FaEnvelope className="icon" />
-                <a className="contact-link" href="mailto:ahmadrza.1110@gmail.com">
-                  ahmadrza.1110@gmail.com
+                <a className="contact-link" href="mailto:digital@intermid.net">
+                  digital@intermid.net
                 </a>
               </p>
               <p>
                 <FaWhatsapp className="icon green" />
                 <a
                   className="contact-link"
-                  href="https://wa.me/97334123546"
+                  href="https://wa.me/97317104711"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  +973 34123546 ( Call & Chat )
+                  +973 17104711 ( Call & Chat )
                 </a>
               </p>
             </div>

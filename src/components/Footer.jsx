@@ -22,7 +22,7 @@ function Footer() {
     <footer className="footer-wrap">
       {/* Top Row Icons */}
       <div className="footer-top-icons">
-        <a href="mailto:ahmadrza.1110@gmail.com">
+        <a href="mailto:digital@intermid.net">
           <FaEnvelope />
           <span>Send Email</span>
         </a>
@@ -56,7 +56,8 @@ function Footer() {
       {/* Bottom Grid */}
       <div className="footer-bottom">
         <div className="footer-logo">
-          <img src="/Platform Business logo PDF1-01-01.png" alt="Platform Bahrain" />
+          <img src="Platform Business logo PDF1-01-01.png" alt="Platform Bahrain" />
+         
         </div>
         <div className="footer-links-grid">
           <div>
